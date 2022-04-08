@@ -11,4 +11,4 @@
 - Semantic markup
 - BEM methodology
 
-### You can see the build in the `gh-pages` branch. And here is the link to [gh-pages]() itself
+### You can see the build in the `gh-pages` branch. And here is the link to [gh-pages](https://deeckoy.github.io/Adventure-Path/) itself
