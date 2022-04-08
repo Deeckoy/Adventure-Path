@@ -1,10 +1,14 @@
 # Adventure Path
 
+### This is my project for a non-existent minecraft server to show my skills and abilities in frontend development. The project is made using a gulp build I made.
 
-[comment]: <> (Gulp template is a template for web html developers!)
+### Used technologies:
+- Jade
+- SCSS
+- Vanilla JS
 
-[comment]: <> (It includes)
+### Soft skills:
+- Semantic markup
+- BEM methodology
 
-[comment]: <> (1. pug)
-
-[comment]: <> (2. scss)
+### You can see the build in the `gh-pages` branch. And here is the link to [gh-pages]() itself
