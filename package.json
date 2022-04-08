@@ -1,0 +1,54 @@
+{
+	"name": "gulp-template",
+	"version": "1.0.0",
+	"description": "Gulp-template это template для веб frontend html разработчиков Тут используются следующие технологии: - pug - scss - bootstrap",
+	"main": "index.js",
+	"scripts": {
+		"styles:dev": "gulp styles:dev",
+		"styles:prod": "gulp styles:prod",
+		"pages:dev": "gulp pages:dev",
+		"pages:prod": "gulp pages:prod",
+		"imagemin": "gulp imagemin",
+		"scripts": "gulp scripts",
+		"fonts": "gulp fonts",
+		"static": "gulp static",
+		"compile:dev": "gulp compile:dev",
+		"compile:prod": "gulp compile:prod",
+		"clean": "gulp clean",
+		"serve:dev": "gulp serve:dev",
+		"serve:prod": "gulp serve:prod",
+		"start": "gulp start"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Interplar-Creative-Studio/gulp-template.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Interplar-Creative-Studio/gulp-template/issues"
+	},
+	"homepage": "https://github.com/Interplar-Creative-Studio/gulp-template#readme",
+	"dependencies": {
+		"gulp": "^4.0.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.16.0",
+		"@babel/register": "^7.16.0",
+		"autoprefixer": "^10.4.0",
+		"browser-sync": "^2.27.7",
+		"del": "^6.0.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-eslint": "^6.0.0",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-postcss": "^9.0.1",
+		"gulp-pug": "^5.0.0",
+		"gulp-real-favicon": "^0.3.2",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^5.0.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"postcss-uncss": "^0.17.0",
+		"sass": "^1.43.4"
+	}
+}

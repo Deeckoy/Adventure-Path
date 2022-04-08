@@ -1,0 +1,22 @@
+extends ../layouts/master
+
+block title
+  title Дорога Приключений в Майнкрафте
+
+append title
+  link(rel="stylesheet" href="assets/css/styles.min.css")
+
+block content
+  include ../includes/modules/header
+
+  .wrapper
+    main.content
+      include ../includes/modules/greeting
+      include ../includes/modules/ip
+      include ../includes/modules/howtostart
+
+    .hero_right
+      img.hero__image(src="assets/img/bg.svg" alt="")
+
+append scripts
+  script(src="assets/scripts/main.min.js")

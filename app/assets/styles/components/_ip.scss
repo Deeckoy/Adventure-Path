@@ -1,0 +1,91 @@
+.ip {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.ip__label {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #374151;
+
+  @media only screen and (max-width: 468px) {
+    font-size: 1.8rem;
+  }
+}
+
+.ip_complex {
+  margin-top: 8px;
+
+  display: flex;
+  align-items: stretch;
+
+  &.copied {
+    .ip__value {
+      border: 2px solid $success;
+      border-right: none;
+
+      @media only screen and (max-width: 468px) {
+        border: 2px solid $success;
+      }
+    }
+
+    .ip__copy {
+      border: 2px solid $success;
+      background-color: $success;
+    }
+  }
+}
+
+.ip__value {
+  padding: 6px 3%;
+
+  font-size: 2rem;
+  font-weight: 700;
+  color: #374151;
+
+  border: 2px solid $primary;
+  border-right: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+
+  @media only screen and (max-width: 468px) {
+    width: 100%;
+
+    text-align: center;
+
+    border: 2px solid $primary;
+    border-radius: 6px;
+  }
+}
+
+.ip__copy {
+  height: 41px;
+
+  padding: 6px 12px;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid $primary;
+  background-color: $primary;
+
+  transform: scale(1.2);
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+  &:hover {
+    background-color: lighten($primary, 10%);
+  }
+
+  @media only screen and (max-width: 468px) {
+    display: none;
+  }
+}

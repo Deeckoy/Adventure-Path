@@ -1,0 +1,29 @@
+@import 'utils/reset';
+@import 'utils/fonts';
+@import 'utils/variables';
+
+@import 'components/header';
+@import 'components/content';
+@import 'components/hero';
+@import 'components/ip';
+@import 'components/steps';
+
+:root {
+  font-size: 10px;
+}
+
+body,
+button {
+  font-family: Gilroy, Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  min-height: calc(100vh - 92px);
+
+  display: flex;
+  align-items: stretch;
+
+  @media only screen and (max-width: 968px) {
+    flex-direction: column;
+  }
+}

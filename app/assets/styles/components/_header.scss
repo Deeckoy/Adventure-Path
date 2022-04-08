@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+
+  padding: 0 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  display: flex;
+  align-items: center;
+
+  box-shadow: 0 10px 5px 2px rgba(#202020, 0.01);
+}
+
+.header__brand {
+  padding: 6px 16px 6px 8px;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 6px;
+
+  &:hover {
+    background-color: rgba($gray, 0.5);
+  }
+}
+
+.brand__logo {
+  width: 64px;
+  height: 64px;
+
+  margin-right: 12px;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 6px;
+}
+
+.brand__text {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #454545;
+}
