@@ -12,3 +12,6 @@
 - BEM methodology
 
 ### You can see the build in the `gh-pages` branch. And here is the link to [gh-pages](https://deeckoy.github.io/Adventure-Path/) itself
+
+### Page preview:
+![Adventure Path Preview](https://user-images.githubusercontent.com/70047679/162418670-3fa98bcf-2aa5-4a65-ac10-910bcc5d089a.png)
