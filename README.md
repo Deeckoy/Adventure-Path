@@ -2,6 +2,8 @@
 
 ### This is my project for a non-existent minecraft server to show my skills and abilities in frontend development. The project is made using a gulp build I made.
 
+![AdventurePath GitHub Banner](https://user-images.githubusercontent.com/70047679/162605411-dbad8ff1-43c2-4609-b1c8-689aa166ad58.png)
+
 ### Used technologies:
 - Jade
 - SCSS
